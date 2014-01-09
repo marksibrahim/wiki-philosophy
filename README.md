@@ -1,6 +1,6 @@
 wikipedia-philosophy
 ====================
-tldr; a simple script to count number of steps it takes to hit the Philosopy page from a random Wikipedia page.
+tldr; a simple script to count number of steps it takes to hit the Philosophy page from a random Wikipedia page.
 
 
 The alt text of this xkcd: http://xkcd.com/903/ says:
@@ -11,7 +11,7 @@ And sure enough, most do. There are some which end up in a few loop within thems
 
 And there are others which link to non-existing pages, reaching a dead-end.
 
-Still a large number of pages do eventually reach Philosophy. So this script starts with a random Wikipedia page and follows the first link until it gets to Philosophy and adds the number of steps it takes to reach there to the accompanying CSV file, then moving to get another random page.
+Still a large number of pages do eventually reach Philosophy. So this script starts with a random Wikipedia page and follows the first link until it gets to Philosophy and adds the number of steps it takes to reach there to the accompanying analysis.csv file, then moving to get another random page.
 
 
 Instructions
