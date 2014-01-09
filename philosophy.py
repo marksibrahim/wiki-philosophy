@@ -7,6 +7,8 @@ import tidylib
 
 goal = "http://en.wikipedia.org/wiki/Philosophy"
 
+attempts = 10 # How many sets of a-random-page-to-philosopgy trip to do?
+
 visited = []
 special = []
 loop = []
@@ -96,7 +98,7 @@ def get_random_page():
         return page
     
 count = 0
-for i in range(0, 10):
+for i in range(0, attempts):
     try:
         randomURL = get_random_page()
         count = search(randomURL, count)
